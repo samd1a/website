@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./assets/main.css -o assets/style.css --watch",
+    "production-css": "tailwindcss -o ./assets/style.css --minify"
+  },
+  "author": "",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
