@@ -6,7 +6,7 @@
     "build-css": "tailwindcss build -i ./assets/main.css -o assets/style.css --watch",
     "production-css": "tailwindcss -o ./assets/style.css --minify"
   },
-  "author": "",
+  "author": "Sam Diamond @samd1a",
   "license": "GNU GPLv3",
   "dependencies": {
     "tailwindcss": "^3.2.1"
