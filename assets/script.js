@@ -5,8 +5,8 @@ function calculateDifference(a, b) {
 }
 const dateA = new Date("2006-06-20");
 const dateB = new Date();
-const difference = (calculateDifference(dateA, dateB) / 365).toFixed(5);
-document.getElementById('age').innerHTML = difference.toString();
+const difference = (calculateDifference(dateA, dateB) / 365.24218).toFixed(5);
+document.getElementById("age").innerHTML = difference.toString();
 
 // adapted from
 // https://stackoverflow.com/a/15289883

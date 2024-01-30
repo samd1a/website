@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ["./*.html"],
   theme: {
-    fontFamily: {
-      'poppins': ['Poppins', 'sans-serif']
-    },
     colors: {
-      'black': '#1D1D1F',
-      'white': '#ECEFF6'
-    }
-  }
-}
+      blue: "#06f",
+    },
+    fontFamily: {
+      inter: ['"Inter"', "sans-serif"],
+    },
+  },
+};
