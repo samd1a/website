@@ -4,11 +4,12 @@
   "private": "true",
   "scripts": {
     "build-css": "tailwindcss build -i ./assets/main.css -o assets/style.css --watch",
-    "production-css": "tailwindcss -o ./assets/style.css --minify"
+    "production-css": "tailwindcss -i ./assets/main.css -o ./assets/style.css --minify"
   },
-  "author": "Sam Diamond @samd1a",
+  "author": "Sam Diamond <sam@sampdiamond.com> (https://sampdiamond.com)",
   "license": "GNU GPLv3",
   "dependencies": {
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.2.1"
   }
 }
